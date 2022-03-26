@@ -93,33 +93,36 @@ Welcome to the FS Scenery Map Project, an open source mapping project to track f
 
 <!-- DATASET -->
 ## DataSet
+A product supporting multiple simulators should have separate entries for each simulator.
 ### airports.geojson
 GeoJSON file containing 'airport scenery' products as Point geometry.<br>
 When adding new airports, use the coordinates from the [OurAirports repository](https://github.com/davidmegginson/ourairports-data).
 #### Properties
-- Product title
-- ICAO code
-- Developer
-- Publisher
-- Release date
-- Last updated on
-- Tested simulator version
-- Product link
-- Product description
-- Tags
+- Product title `title`
+- Product status `status` - announced/released
+- ICAO code `icao`
+- Developer `developer`
+- Publisher `publisher`
+- Release date `release` - ISO 8601 datetime in UTC
+- Last updated on `update` - ISO 8601 datetime in UTC
+- Tested simulator version `sim` - example: `xplane_11.53`, `prepar3d_5.3.17.28160`, `msfs_1.23.12.0`
+- Product link `url`
+- Product description `desc_txt` - max 128 characters utf-8
+- Tags `tags` - string containing comma separated list
 
 ### scenery.geojson
 GeoJSON file containing 'region scenery' products covering a certain geographic area as Polygon geometry.
 #### Properties
-- Product title
-- Developer
-- Publisher
-- Release date
-- Last updated on
-- Tested simulator version
-- Product link
-- Product description
-- Tags
+- Product title `title`
+- Product status `status` - announced/released
+- Developer `developer`
+- Publisher `publisher`
+- Release date `release` - ISO 8601 datetime in UTC
+- Last updated on `update` - ISO 8601 datetime in UTC
+- Tested simulator version `sim` - example: `xplane_11.53`, `prepar3d_5.3.17.28160`, `msfs_1.23.12.0`
+- Product link `url`
+- Product description `desc_txt` - max 128 characters utf-8
+- Tags `tags` - string containing comma separated list
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
