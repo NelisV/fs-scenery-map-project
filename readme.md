@@ -93,7 +93,7 @@ Welcome to the FS Scenery Map Project, an open source mapping project to track f
 
 <!-- DATASET -->
 ## DataSet
-###airports.geojson
+### airports.geojson
 GeoJSON file containing 'airport scenery' products as Point geometry.<br>
 When adding new airports, use the coordinates from the [OurAirports repository](https://github.com/davidmegginson/ourairports-data).
 #### Properties
@@ -108,7 +108,7 @@ When adding new airports, use the coordinates from the [OurAirports repository](
 - Product description
 - Tags
 
-###scenery.geojson
+### scenery.geojson
 GeoJSON file containing 'region scenery' products covering a certain geographic area as Polygon geometry.
 #### Properties
 - Product title
