@@ -92,14 +92,34 @@ Welcome to the FS Scenery Map Project, an open source mapping project to track f
 
 
 <!-- DATASET -->
-## Dataset
-
-`airports.geojson`<br>
-GeoJSON file containing airport scenery add-ons as Point geometry.<br>
+## DataSet
+###`airports.geojson`
+GeoJSON file containing 'airport scenery' products as Point geometry.<br>
 When adding new airports, use the coordinates from the [OurAirports repository](https://github.com/davidmegginson/ourairports-data).
+#### Properties
+- Product title
+- ICAO code
+- Developer
+- Publisher
+- Release date
+- Last updated on
+- Tested simulator version
+- Product link
+- Product description
+- Tags
 
-`scenery.geojson`<br>
-GeoJSON file containing 'region scenery'-products covering a certain geographic area as Polygon geometry.
+###`scenery.geojson`
+GeoJSON file containing 'region scenery' products covering a certain geographic area as Polygon geometry.
+#### Properties
+- Product title
+- Developer
+- Publisher
+- Release date
+- Last updated on
+- Tested simulator version
+- Product link
+- Product description
+- Tags
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -112,7 +132,7 @@ GeoJSON file containing 'region scenery'-products covering a certain geographic 
     - [x] Git repo
     - [x] License
     - [ ] Readme
-- [ ] Define datastructure
+- [ ] Define data structure
 - [ ] Start dataset
     - [ ] Open up to community contributors
 
@@ -129,14 +149,14 @@ Contributions are what make the open source community such an amazing place to l
 
 The easiest way to edit this data and contribute is using QGIS, an open source GIS toolkit. Make sure to only push valid GeoJSON.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Open the Relevant File in QGIS
-4. Make your Changes
-5. Validate your Changes
-6. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-7. Push to the Branch (`git push origin feature/AmazingFeature`)
-8. Open a Pull Request
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Open the relevant file in QGIS
+4. Make your changes
+5. Validate your changes
+6. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+7. Push to the branch (`git push origin feature/AmazingFeature`)
+8. Open a pull request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -156,7 +176,7 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
 [NelisV](https://github.com/NelisV)
 
-Project Link: [https://github.com/NelisV/fs-scenery-project](https://github.com/NelisV/fs-scenery-project)
+Project link: [https://github.com/NelisV/fs-scenery-project](https://github.com/NelisV/fs-scenery-project)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
