@@ -32,7 +32,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">FS Scenery Project</h3>
+<h3 align="center">FS Scenery Map Project</h3>
 
   <p align="center">
     A community driven project to map flight simulation scenery. 
@@ -83,7 +83,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `NelisV`, `fs-scenery-project`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `FS Scenery Project`, `A community driven project to map flight simulation scenery. `
+Welcome to the FS Scenery Map Project, an open source mapping project to track flight simulation scenery. Anyone is invited to contribute to this datasource, add-on developers/publishers included. As long as a contribution can be backed with a public announcement it will generally be accepted.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,51 +92,21 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * [GeoJSON](https://datatracker.ietf.org/doc/html/rfc7946)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/NelisV/fs-scenery-project.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+* [QGIS](https://qgis.org)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Dataset
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+`airports.geojson`<br>
+GeoJSON file containing airport scenery add-ons as Point geometry.<br>
+When adding new airports, use the coordinates from the [OurAirports repository](https://github.com/davidmegginson/ourairports-data).
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+`scenery.geojson`<br>
+GeoJSON file containing 'region scenery'-products covering a certain geographic area as Polygon geometry.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -145,10 +115,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Start the project
+    - [x] Git repo
+    - [x] License
+    - [ ] Readme
+- [ ] Define datastructure
+- [ ] Start dataset
+    - [ ] Open up to community contributors
 
 See the [open issues](https://github.com/NelisV/fs-scenery-project/issues) for a full list of proposed features (and known issues).
 
@@ -161,14 +134,16 @@ See the [open issues](https://github.com/NelisV/fs-scenery-project/issues) for a
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+The easiest way to edit this data and contribute is using QGIS, an open source GIS toolkit. Make sure to only push valid GeoJSON.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+3. Open the Relevant File in QGIS
+4. Make your Changes
+5. Validate your Changes
+6. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+7. Push to the Branch (`git push origin feature/AmazingFeature`)
+8. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -177,7 +152,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -186,7 +161,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+[NelisV](https://github.com/NelisV)
 
 Project Link: [https://github.com/NelisV/fs-scenery-project](https://github.com/NelisV/fs-scenery-project)
 
@@ -197,9 +172,7 @@ Project Link: [https://github.com/NelisV/fs-scenery-project](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [OurAirports](https://github.com/davidmegginson/ourairports-data)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
