@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "airports",
+"features": [
+{ "type": "Feature", "properties": { "title": "FlyTampa-Amsterdam V2", "status": "released", "icao": "EHAM", "developer": "FlyTampa", "publisher": "FlyTampa", "release": null, "update": null, "sim": "prepar3d_5.3.17.28160", "url": "https://www.flytampa.org/eham.ht", "desc_txt": null, "tags": null }, "geometry": { "type": "Point", "coordinates": [ 4.76389, 52.308601 ] } }
+]
+}
