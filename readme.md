@@ -60,7 +60,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li><a href="#dataset">DataSet</a></li>
+    <li><a href="#data">Data</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -91,8 +91,8 @@ Welcome to the FS Scenery Map Project, an open source mapping project to track f
 
 
 
-<!-- DATASET -->
-## DataSet
+<!-- DATA -->
+## Data
 A product supporting multiple simulators should have separate entries for each simulator.
 ### airports.geojson
 GeoJSON file containing 'airport scenery' products as Point geometry.<br>
