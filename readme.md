@@ -28,7 +28,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NelisV/fs-scenery-project">
+  <a href="https://github.com/NelisV/fs-scenery-map-project">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -37,14 +37,14 @@
   <p align="center">
     A community driven project to map flight simulation scenery. 
     <br />
-    <a href="https://github.com/NelisV/fs-scenery-project"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/NelisV/fs-scenery-map-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/NelisV/fs-scenery-project">View Demo</a>
+    <a href="https://github.com/NelisV/fs-scenery-map-project">View Demo</a>
     ·
-    <a href="https://github.com/NelisV/fs-scenery-project/issues">Report Bug</a>
+    <a href="https://github.com/NelisV/fs-scenery-map-project/issues">Report Bug</a>
     ·
-    <a href="https://github.com/NelisV/fs-scenery-project/issues">Request Feature</a>
+    <a href="https://github.com/NelisV/fs-scenery-map-project/issues">Request Feature</a>
   </p>
 </div>
 
@@ -139,7 +139,7 @@ GeoJSON file containing 'region scenery' products covering a certain geographic 
 - [ ] Start dataset
     - [ ] Open up to community contributors
 
-See the [open issues](https://github.com/NelisV/fs-scenery-project/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/NelisV/fs-scenery-map-project/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -179,7 +179,7 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
 [NelisV](https://github.com/NelisV)
 
-Project link: [https://github.com/NelisV/fs-scenery-project](https://github.com/NelisV/fs-scenery-project)
+Project link: [https://github.com/NelisV/fs-scenery-map-project](https://github.com/NelisV/fs-scenery-map-project)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -196,16 +196,16 @@ Project link: [https://github.com/NelisV/fs-scenery-project](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/NelisV/fs-scenery-project.svg?style=for-the-badge
-[contributors-url]: https://github.com/NelisV/fs-scenery-project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/NelisV/fs-scenery-project.svg?style=for-the-badge
-[forks-url]: https://github.com/NelisV/fs-scenery-project/network/members
-[stars-shield]: https://img.shields.io/github/stars/NelisV/fs-scenery-project.svg?style=for-the-badge
-[stars-url]: https://github.com/NelisV/fs-scenery-project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/NelisV/fs-scenery-project.svg?style=for-the-badge
-[issues-url]: https://github.com/NelisV/fs-scenery-project/issues
-[license-shield]: https://img.shields.io/github/license/NelisV/fs-scenery-project.svg?style=for-the-badge
-[license-url]: https://github.com/NelisV/fs-scenery-project/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/NelisV/fs-scenery-map-project.svg?style=for-the-badge
+[contributors-url]: https://github.com/NelisV/fs-scenery-map-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/NelisV/fs-scenery-map-project.svg?style=for-the-badge
+[forks-url]: https://github.com/NelisV/fs-scenery-map-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/NelisV/fs-scenery-map-project.svg?style=for-the-badge
+[stars-url]: https://github.com/NelisV/fs-scenery-map-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/NelisV/fs-scenery-map-project.svg?style=for-the-badge
+[issues-url]: https://github.com/NelisV/fs-scenery-map-project/issues
+[license-shield]: https://img.shields.io/github/license/NelisV/fs-scenery-map-project.svg?style=for-the-badge
+[license-url]: https://github.com/NelisV/fs-scenery-map-project/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
