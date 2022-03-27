@@ -108,7 +108,7 @@ When adding new airports, use the coordinates from the [OurAirports repository](
 - Tested simulator version `sim` - example: `xplane_11.53`, `prepar3d_5.3.17.28160`, `msfs_1.23.12.0`
 - Product link `url`
 - Product description `desc_txt` - max 128 characters utf-8
-- Tags `tags` - string containing comma separated list
+- Tags `tags` - string containing comma separated list. example: `'GSX, freeware, SODE'` 
 
 ### scenery.geojson
 GeoJSON file containing 'region scenery' products covering a certain geographic area as Polygon geometry.
